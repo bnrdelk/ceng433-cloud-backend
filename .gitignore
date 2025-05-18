@@ -1,0 +1,78 @@
+# .NET build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# ASP.NET secrets
+secrets.json
+
+# dotenv environment files
+.env
+.env.*
+
+# Paket yöneticileri
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Publish dosyaları
+wwwroot/
+publish/
+*.db
+
+# Backup ve temp dosyaları
+*~
+*.swp
+*.bak
+
+# Test sonuçları
+TestResults/
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Local DB
+*.mdf
+*.ldf
+
+# SQLite
+*.sqlite
+*.db
+
+# JetBrains Rider
+.idea/
+
+# Auto-generated files
+Generated_Code/
+
+# GitHub Codespaces
+.code/
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+.docker/
+Dockerfile
+
+# SonarQube
+.sonar/
+# appsettings files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
